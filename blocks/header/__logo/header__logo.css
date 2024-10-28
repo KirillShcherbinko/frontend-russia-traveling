@@ -1,9 +1,8 @@
 .header__logo {
-    box-sizing: border-box;
     max-width: 176px;
     height: 100%;
     margin: 0;
-    margin-right: calc(100vw - 2*18px - 2*48px - 30px - 29px - 176px);
+    justify-self: start;
 }
 
 @media screen and (max-width: 768px) {

@@ -6,6 +6,7 @@
     font-family: 'Inter-Regular', sans-serif;
     font-size: 24px;
     line-height: 1.16;
+    justify-self: end;
 }
 
 @media screen and (max-width: 320px) {

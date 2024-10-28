@@ -1,0 +1,27 @@
+.russia-traveling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 984px;
+    margin: 56px calc((100vw - 984px)/2) 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .russia-traveling {
+        max-width: calc(100vw - 2*48px);
+        margin: 56px 48px 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .russia-traveling {
+        max-width: 928px;
+        margin: 48px 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .russia-traveling {
+        margin: 48px 0 0;
+    }
+}

@@ -9,3 +9,9 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__link/_language/header__link_language_russian.css);
 @import url(../blocks/header/__link/_language/header__link_language_english.css);
+
+@import url(../blocks/russia-traveling/russia-traveling.css);
+@import url(../blocks/russia-traveling/__title/russia-traveling__title.css);
+@import url(../blocks/russia-traveling/__subtitle/russia-traveling__subtitle.css);
+@import url(../blocks/russia-traveling/__image/russia-traveling__image.css);
+@import url(../blocks/russia-traveling/__label/russia-traveling__label.css);
