@@ -15,3 +15,10 @@
 @import url(../blocks/russia-traveling/__subtitle/russia-traveling__subtitle.css);
 @import url(../blocks/russia-traveling/__image/russia-traveling__image.css);
 @import url(../blocks/russia-traveling/__label/russia-traveling__label.css);
+
+@import url(../blocks/not-seen/not-seen.css);
+@import url(../blocks/not-seen/__title/not-seen__title.css);
+@import url(../blocks/not-seen/__main-text/not-seen__main-text.css);
+@import url(../blocks/not-seen/__list/not-seen__list.css);
+@import url(../blocks/not-seen/__text/not-seen__text.css);
+@import url(../blocks/not-seen/__text/_number/not-seen__text_number.css);
