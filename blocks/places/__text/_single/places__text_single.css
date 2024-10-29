@@ -1,0 +1,9 @@
+.places__text_single {
+    transform: translate(0, calc(48px - 26px));
+}
+
+@media screen and (max-width: 768px) {
+    .places__text_single {
+        transform: translate(0, calc(48px - 25px));
+    }
+}
