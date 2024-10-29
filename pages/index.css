@@ -21,4 +21,7 @@
 @import url(../blocks/not-seen/__main-text/not-seen__main-text.css);
 @import url(../blocks/not-seen/__list/not-seen__list.css);
 @import url(../blocks/not-seen/__text/not-seen__text.css);
-@import url(../blocks/not-seen/__text/_number/not-seen__text_number.css);
+@import url(../blocks/not-seen/__number/not-seen__number.css);
+
+@import url(../blocks/photos/photos.css);
+@import url(../blocks/photos/__image/photos__image.css);
