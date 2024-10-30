@@ -1,0 +1,15 @@
+.places__url-heading {
+    color: #AAAAAA;
+    font-family: 'Inter-Regular';
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .places__url-heading {
+        line-height: 12px;
+    }
+}
