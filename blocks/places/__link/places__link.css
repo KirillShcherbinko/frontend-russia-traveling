@@ -5,3 +5,7 @@
     line-height: 22px;
     font-weight: normal;
 }
+
+.places__link:hover {
+    opacity: 80%;
+}

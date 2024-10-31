@@ -10,6 +10,10 @@
     align-self: end;
 }
 
+.header__lang-link:hover {
+    opacity: 80%;
+}
+
 @media screen and (max-width: 768px) {
     .header__lang-link {
         max-width: calc(30px - (768px - 100vw)/56);
