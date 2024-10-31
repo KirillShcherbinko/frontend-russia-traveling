@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1024px) {
     .places__place {
-        max-width: 928px;
+        max-width: calc(928px - (1024px - 100vw)*13/16);
         column-gap: 32px;
     }
 }
@@ -18,6 +18,15 @@
     .places__place {
         max-width: 720px;
         column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .places__place {
+        grid-template-rows: repeat(5, min-content);
+        grid-template-columns: 1fr;
+        max-width: 100vw;
+        gap: 32px 0;
     }
 }
 

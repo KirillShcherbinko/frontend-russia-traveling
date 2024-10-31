@@ -4,7 +4,11 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    opacity: 0;
+    background-color: rgba(42, 44, 47);
+    opacity: 30%;
     z-index: 1;
+}
+
+.cover:hover .cover__overlay{
+    opacity: 80%;
 }

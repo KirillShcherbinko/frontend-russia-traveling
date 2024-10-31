@@ -11,10 +11,17 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1184px) {
     .cover__subtitle {
-        max-width: 288px;
-        font-size: 14px;
-        line-height: 16px;
+        top: calc(429px - (1184px - 100vw)*0.3125);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        max-width: calc(360px - (768px - 100vw)*9/56);
+        font-size: calc(18px - (768px - 100vw)/112);
+        line-height: calc(22px - (768px - 100vw)*3/224);
+        top: calc(299px - (768px - 100vw)*45/112);
     }
 }

@@ -5,16 +5,16 @@
     max-height: 28px;
     font-family: 'Inter-Regular', sans-serif;
     font-size: 24px;
-    line-height: 1.16;
+    line-height: 28px;
     text-decoration: none;
-    justify-self: end;
+    align-self: end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .header__lang-link {
-        max-width: 22px;
-        max-height: 20px;
-        font-size: 18px;
-        line-height: 1.11;
+        max-width: calc(30px - (768px - 100vw)/56);
+        max-height: calc(28px - (768px - 100vw)/56);
+        font-size: calc(24px - (768px - 100vw)*3/224);
+        line-height: calc(28px - (768px - 100vw)/56);
     }
 }

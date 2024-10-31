@@ -1,0 +1,14 @@
+.footer__copyright {
+    margin: 0;
+    justify-self: end;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media screen and (max-width: 720px) {
+    .footer__copyright {
+        margin-top: 16px;
+        line-height: 14px;
+    }
+}

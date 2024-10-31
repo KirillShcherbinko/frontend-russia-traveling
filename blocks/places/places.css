@@ -3,28 +3,29 @@
     grid-template-rows: repeat(5, min-content);
     max-width: 984px;
     max-height: min-content;
-    margin: 92px calc((100vw - 984px)/2) 0;
+    padding: 92px calc((100vw - 984px)/2) 0;
     row-gap: 80px;
 }
 
 @media screen and (max-width: 1080px) {
     .places {
-        margin: 92px 48px 0;
+        padding: 92px 48px 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places {
         max-width: 720px;
-        margin: 88px 24px 0;
-        row-gap: 73px;
+        padding: calc(88px - (768px - 100vw)*3/56) calc(24px - (768px - 100vw)*3/56) 0;
+        row-gap: calc(73px - (768px - 100vw)*23/448);
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
     .places {
         max-width: 100%;
-        margin: 64px 0 0;
-        row-gap: 50px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
+
