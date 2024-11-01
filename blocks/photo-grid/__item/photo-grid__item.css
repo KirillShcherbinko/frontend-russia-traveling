@@ -4,19 +4,19 @@
 
 @media screen and (max-width: 1279px) {
     .photo-grid__item {
-        max-width: 300px;
+        max-width: calc(384px - (1279px - 100vw)*21/64);
     }
 }
 
 @media screen and (max-width: 1023px) {
     .photo-grid__item {
-        max-width: calc(352px - (1023px - 100vw)/4);
+        max-width: calc(480px - (1023px - 100vw)/2);
     }
 }
 
 @media screen and (max-width: 767px) {
     .photo-grid__item {
-        max-width: 288px;
+        max-width: calc(736px - (767px - 100vw));
     }
 }
 

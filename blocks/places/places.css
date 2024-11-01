@@ -3,20 +3,20 @@
     grid-template-rows: repeat(5, min-content);
     max-width: 984px;
     max-height: min-content;
-    padding: 92px calc((100vw - 984px)/2) 0;
+    padding: 92px calc((100vw - 984px)/2);
     row-gap: 80px;
 }
 
 @media screen and (max-width: 1080px) {
     .places {
-        padding: 92px 48px 0;
+        padding: 92px 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places {
         max-width: 720px;
-        padding: calc(88px - (768px - 100vw)*3/56) calc(24px - (768px - 100vw)*3/56) 0;
+        padding: calc(88px - (768px - 100vw)*3/56) calc(24px - (768px - 100vw)*3/56) calc(90px - (768px - 100vw)*3/56);
         row-gap: calc(73px - (768px - 100vw)*23/448);
     }
 }
@@ -26,6 +26,7 @@
         max-width: 100%;
         padding-left: 0;
         padding-right: 0;
+        padding-bottom: calc(90px - (768px - 100vw)*3/56 + 23px)
     }
 }
 

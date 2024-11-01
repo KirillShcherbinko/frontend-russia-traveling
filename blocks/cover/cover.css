@@ -7,7 +7,6 @@
     max-width: 1184px;
     min-height: 740px;
     margin: 0 auto;
-    margin-top: 92px;
     color: white;
 }
 
@@ -16,11 +15,5 @@
         margin-left: 0;
         margin-right: 0;
         min-height: calc(100vw / 1.6);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover {
-        margin-top: calc(90px - (768px - 100vw)*3/56);
     }
 }
